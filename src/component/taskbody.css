@@ -1,0 +1,102 @@
+.tasks{
+    margin: auto;
+    background-color: rgb(227, 224, 230);
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:95%;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-weight: 900;
+    
+}
+.partent{
+    
+    height:auto;
+    background-color: #fed7e7;
+   
+    margin: auto;
+    width:95%;
+   margin-top: 15px;
+   
+   margin-bottom:20px; 
+   display: flex;
+   text-align: center;
+   border-radius: 25px;
+   justify-content: space-between;
+}
+.partent:hover{
+    box-shadow: 2px 3px 8px 2px rgb(180, 176, 176);
+}
+.child{
+    
+    background-color:#dee7fc;
+    margin: auto;
+    width:100%;
+   margin-top:20px;
+   
+   border-radius: 25px;
+   display: flex;
+   justify-content: center;
+   transition: ease-in-out ;
+   
+    
+
+}
+
+.child:hover{
+    box-shadow: 2px 2px 8px 2px rgb(150, 147, 147);
+}
+
+
+.activity-img{
+    width:55px;
+    background-color: #ff71ac;
+    padding: 15px;
+    border-radius: 30%;
+   
+}
+
+.child-img{
+
+    width:55px;
+    background-color: #5281ee;
+  padding: 5px;
+    border-radius: 20%;
+}
+
+.child-section h3 span{
+        margin-left: 20px;
+}
+.up{
+ 
+   
+   
+
+}
+.title .activity-img{
+    position: relative;
+    margin: left 12px;
+    
+}
+.title{
+    max-width: 220px;
+    overflow-wrap: break-word;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .tasks {
+    display: block;
+  
+    }
+    .partent{
+        display: block;
+      
+    }
+    .child{
+        display: block;
+        text-align: center;
+    }
+  }
